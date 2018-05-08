@@ -21,6 +21,9 @@ namespace ConsoleApp1
 
             Console.WriteLine(mainigais2);
             Console.ReadLine();
+            string result = Funkcija5("Ludzu ","iedodiet ","gramatu ");
+            Console.WriteLine(result);
+            Console.ReadLine();
 
         }
         static void Funkcija()
@@ -62,6 +65,18 @@ namespace ConsoleApp1
             int result;
             result = skaitlis1 + skaitlis2;
             return result;
+        }
+        static string Funkcija5(string virkne1, string virkne2, string virkne3)
+        {
+            string result;
+           
+            result = virkne1+virkne2+virkne3;
+            
+            
+            return result;
+
+
+
         }
 
 
